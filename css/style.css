@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+}
+.slides{
+  position: relative;
+  width: 720px;
+  height: 400px;
+  padding: 20px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slides img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+
+.slides .top{
+  z-index: -1;
+}
